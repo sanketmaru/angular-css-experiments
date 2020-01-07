@@ -4,10 +4,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatButtonModule, MatSelectModule, MatSidenavModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MediaObjectComponent } from './media-object/media-object.component';
+import { HolyGrailComponent } from './holy-grail/holy-grail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MediaObjectComponent,
+    HolyGrailComponent
   ],
   imports: [
     BrowserModule,

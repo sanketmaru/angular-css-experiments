@@ -4,4 +4,9 @@
 body {
     margin: 0px;
     box-sizing: border-box;
+    background: #53777A;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #111;
+    text-decoration: none;
+    font-weight: 400;
 }
